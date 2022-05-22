@@ -118,5 +118,13 @@ nav {
         font-size: 20px !important;
     }
 
+    iframe {
+        align-items: center;
+        margin-bottom: 20px;
+        padding: 10px;
+        justify-content: center;
+        text-align: center;
+    }
+
 
 }
