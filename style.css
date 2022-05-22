@@ -14,10 +14,14 @@ nav {
 
 }
 
+
+
 .navbar-brand {
     font-weight: bold;
     color: grey !important;
 }
+
+
 
 /* 
 .navbar-nav .nav-link {
@@ -85,4 +89,34 @@ nav {
 
 #contact p {
     padding: 1rem;
+}
+
+
+
+
+/* Media Queries */
+/* PC SCREEN */
+@media screen and (min-width: 1024px) {
+    .navbar-brand {
+        font-size: 35px !important;
+    }
+
+}
+
+
+/* Tablet Screen */
+@media (min-width: 769px) and (max-width: 1023px) {
+    .navbar-brand {
+        font-size: 30px !important;
+    }
+}
+
+
+/* Mobile Screen */
+@media screen and (max-width: 768px) {
+    .navbar-brand {
+        font-size: 20px !important;
+    }
+
+
 }
