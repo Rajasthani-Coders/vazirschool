@@ -74,3 +74,15 @@ nav {
 .footer a {
     text-decoration: none !important;
 }
+
+#contact {
+    text-align: center;
+    font-family: 'Handlee', cursive !important;
+    padding: 1rem;
+    background-color: #17a2b8;
+
+}
+
+#contact p {
+    padding: 1rem;
+}
