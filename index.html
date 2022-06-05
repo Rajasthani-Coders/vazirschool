@@ -22,6 +22,9 @@
       rel="stylesheet"
     />
 
+    <!--AOS Library-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <!-- Font Awesome -->
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
@@ -210,8 +213,8 @@
     <section id="about" class="about">
       <div class="container">
         <div class="section-title">
-          <h1>About Us</h1>
-          <p class="text-center">
+          <h1 data-aos="zoom-in">About Us</h1>
+          <p data-aos="zoom-out" class="text-center">
             Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
             aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
             quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
@@ -222,17 +225,18 @@
         <div class="row">
           <div class="col-lg-6 order-1 order-lg-2">
             <img
+              data-aos="fade-right"
               src="https://www.gettingsmart.com/wp-content/uploads/2016/05/Classroom-Students-Teacher-Feature-Image-e1535388740402.jpg"
               class="img-fluid"
               alt=""
             />
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
-            <h3>
+            <h3 data-aos="zoom-in">
               Voluptatem dignissimos provident quasi corporis voluptates sit
               assumenda.
             </h3>
-            <p class="fst-italic">
+            <p class="fst-italic" data-aos="zoom-out">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
@@ -274,7 +278,7 @@
     <div class="container-fluid facilities pt-5">
       <div class="container pb-3">
         <div class="row">
-          <div class="col-lg-4 col-md-6 pb-1">
+          <div class="col-lg-4 col-md-6 pb-1" data-aos="fade-down-right">
             <div
               class="d-flex bg-light shadow-sm border-top rounded mb-4"
               style="padding: 50px"
@@ -288,7 +292,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 pb-1">
+          <div class="col-lg-4 col-md-6 pb-1" data-aos="zoom-in">
             <div
               class="d-flex bg-light shadow-sm border-top rounded mb-4"
               style="padding: 50px"
@@ -302,7 +306,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 pb-1">
+          <div class="col-lg-4 col-md-6 pb-1" data-aos="fade-down-left">
             <div
               class="d-flex bg-light shadow-sm border-top rounded mb-4"
               style="padding: 50px"
@@ -495,6 +499,15 @@
       </div>
     </footer>
     <!-- End Footer -->
+
+    <!--AOS Library-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 400,
+        duration: 1000,
+      });
+    </script>
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
