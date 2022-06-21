@@ -8,6 +8,11 @@
 }
 
 
+body {
+    overflow-x: hidden !important;
+}
+
+
 
 nav {
     font-family: 'Montserrat', sans-serif;
